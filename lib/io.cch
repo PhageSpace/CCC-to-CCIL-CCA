@@ -1,0 +1,13 @@
+
+#ifndef IOModule
+#define IOModule
+
+asm{
+def endl "\n"
+:print
+    mov a, 0
+    mov b, arg
+    mov c, 12
+    syscall
+}
+#endif

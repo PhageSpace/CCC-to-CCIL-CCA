@@ -1,0 +1,6 @@
+#include <io.cch>
+#define haha 2
+void lol(){
+
+    return 0;
+}
